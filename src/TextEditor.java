@@ -173,6 +173,7 @@ class TextEditor implements ActionListener {   // use actionListner interface ac
         selectAll.addActionListener(this);
         close.addActionListener(this);
 
+        //Add
         edit.add(copy);
         edit.add(paste);
         edit.add(cut);
